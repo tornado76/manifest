@@ -6,6 +6,8 @@
            review="android-review.googlesource.com" />
   <remote name="pure"
            fetch="https://github.com/PureStock/" /> 
+  <remote name="nexus"
+           fetch="https://github.com/PureNexus/" /> 
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-c="true"
@@ -15,6 +17,11 @@
   <!-- Forked Repo's -->
   <project path="manifest" name="manifest" remote="pure" revision="mm" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
+
+  <!-- Proprietary Vendors -->
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="nexus" revision="mm" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="nexus" revision="mm" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="mm" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk" >
