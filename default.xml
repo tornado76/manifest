@@ -14,6 +14,7 @@
 
   <!-- Forked Repo's -->
   <project path="manifest" name="manifest" remote="pure" revision="mm" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk" >
