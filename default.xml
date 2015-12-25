@@ -15,6 +15,9 @@
            sync-j="4" />
 
   <!-- Forked Repo's -->
+  <project path="build" name="android_build" groups="pdk" remote="pure" revision="mm" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="manifest" name="manifest" remote="pure" revision="mm" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
 
@@ -24,9 +27,6 @@
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="mm" />
 
   <!-- AOSP Repo's -->
-  <project path="build" name="platform/build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
