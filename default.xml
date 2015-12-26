@@ -19,6 +19,9 @@
   <project path="manifest" name="manifest" remote="pure" revision="mm" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="mm" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="pure" revision="mm" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="mm" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
 
   <!-- Proprietary Vendors -->
@@ -475,14 +478,11 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
