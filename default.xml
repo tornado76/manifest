@@ -23,6 +23,7 @@
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="pure" revision="mm" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="pure" revision="mm" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" groups="pdk-fs" remote="pure" revision="mm" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="mm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pure" revision="mm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="mm" />
@@ -364,7 +365,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
@@ -379,7 +379,6 @@
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" />
