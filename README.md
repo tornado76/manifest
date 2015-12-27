@@ -19,7 +19,12 @@ Then to sync source, use this command:
 After syncing is done, use these commands to build:
 
     1.) . build/envsetup.sh
-    2.) brunch xxxx    xxxx= device name aka shamu
+    2.) brunch xxxx yyyy
+    
+    xxxx= device name aka shamu
+    yyyy= build type (user,userdebug,eng)*
+
+    *if no build type is specified "user" is default
 
 Enjoy, Stick around for a while AOSP Building is Fun!!!
 
