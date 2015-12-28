@@ -28,6 +28,7 @@
   <project path="external/google" name="android_external_google" remote="pure" revision="mm" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="pure" revision="mm" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pure" revision="mm" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pure" revision="mm" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pure" revision="mm" />
@@ -305,7 +306,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
