@@ -64,6 +64,7 @@
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
 
   <!-- Kernel Source -->
+  <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="pure" revision="mm" />
   <project path="kernel/asus/fugu" name="android_kernel_asus_fugu" groups="device,fugu" remote="pure" revision="mm" />
   <project path="kernel/google/molly" name="android_kernel_google_molly"  groups="device,molly" remote="pure" revision="mm" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm" />
@@ -92,7 +93,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
