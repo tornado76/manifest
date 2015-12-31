@@ -68,6 +68,7 @@
   <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="pure" revision="mm" />
   <project path="kernel/asus/fugu" name="android_kernel_asus_fugu" groups="device,fugu" remote="pure" revision="mm" />
   <project path="kernel/google/molly" name="android_kernel_google_molly"  groups="device,molly" remote="pure" revision="mm" />
+  <project path="kernel/htc/flounder" name="android_kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="pure" revision="mm" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm" />
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm" />
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm" />
@@ -104,7 +105,6 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
