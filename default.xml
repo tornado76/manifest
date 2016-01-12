@@ -66,7 +66,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="pure" revision="mm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pure" revision="mm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="pure" revision="mm" />
-  <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm-cmte" />
 
   <!-- Kernel Source -->
   <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="pure" revision="mm" />
