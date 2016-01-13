@@ -38,7 +38,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="pure" revision="mm" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pure" revision="mm" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pure" revision="mm" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm-cmte" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="pure" revision="mm-cmte" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pure" revision="mm" />
   <project path="hardware/marvell/wlan" name="android_hardware_marvell_wlan" remote="pure" revision="mm" />
