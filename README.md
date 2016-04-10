@@ -1,4 +1,4 @@
-The PureNexus Project - CMTE
+The PureNexus unofficial - CMTE
 =====================
 
 Getting Started
@@ -10,7 +10,7 @@ To build PureNexus from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PureNexusProject/manifest.git -b mm-cmte
+	repo init -u https://github.com/PureNexus/manifest.git -b mm-cmte
 
 Then to sync source, use this command:
 
@@ -28,6 +28,6 @@ After syncing is done, use these commands to build:
 
 Enjoy, Stick around for a while AOSP Building is Fun!!!
 
-[@BeansTown106](https://twitter.com/beanstown106) on Twitter
+All credit thanks to beantown106 and dhacker29
 
 [PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
