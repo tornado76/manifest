@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="purenexus" revision="mm-cmte" />
-  <project path="art" name="android_art" groups="pdk" remote="pure" revision="mm" />
+  <project path="art" name="android_art" groups="pdk" remote="purenexus" revision="mm" />
   <project path="device/google/atv" name="android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="pure" revision="mm" />
   <project path="device/google/molly" name="android_device_google_molly" groups="device,molly,generic_fs" remote="pure" revision="mm" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm" />
